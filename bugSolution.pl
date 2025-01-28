@@ -1,0 +1,1 @@
+my @array = (1 .. 10);my @newArray = ();for my $i (0 .. $#array) {    if ($array[$i] != 5) {        push @newArray, $array[$i];    }}print join ', ', @newArray;
