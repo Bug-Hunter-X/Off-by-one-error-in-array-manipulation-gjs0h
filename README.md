@@ -1,0 +1,1 @@
+This repository demonstrates a common off-by-one error in Perl when manipulating arrays using splice.  The `bug.pl` file contains the erroneous code, while `bugSolution.pl` provides the corrected version.  The error arises from modifying the array while iterating over it with a numerical index. The solution demonstrates a safer approach.
